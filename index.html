@@ -16,42 +16,91 @@
 	<!-- CDN Bootstrap CSS-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- main.css -->
-<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
 	<!-- Header -->
-	<header>
+	<header class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<h1 class="text-center">Búhos y Lechuzas de Chile <i class="fa fa-moon-o" aria-hidden="true"></i></h1>
 			</div>
 		</div>
 	</header>
-	<!-- Slides -->
-	<section class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider">
-			<div class="slide"><img src="assets/img/concon.jpg" alt="Concón" class="img-thumbnail"></div>
-			<div class="slide"><img src="assets/img/nuco.jpg" alt="Nuco" class="img-thumbnail"></div>
-			<div class="slide"><img src="assets/img/pequen.jpg" alt="Pequén" class="img-thumbnail"></div>
-			<div class="slide"><img src="assets/img/tucuquere.jpg" alt="Tucúquere" class="img-thumbnail"></div>
-			<div class="slide"><img src="assets/img/chuncho.jpg" alt="Chuncho" class="img-thumbnail"></div>
-			<div class="slide"><img src="assets/img/lechuzablanca.jpg" alt="Lechuza Blanca" class="img-thumbnail"></div>
+	<!-- Carousel -->
+	<section class="container">
+		<div class="carousel slide row">
+			<!-- Wrapper for slides -->
+			<div id="carousel" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="carousel-inner">
+					<div>
+						<img src="assets/img/concon.jpg" alt="Concón" class="img-thumbnail">
+						<div class="carousel-caption">
+							<p>Concón, <em>Strix rufipes</em></p>
+						</div>
+					</div>
+					<div>
+						<img src="assets/img/nuco.jpg" alt="Nuco" class="img-thumbnail">
+						<div class="carousel-caption">
+							<p>Nuco, <em>Asio flammeus</em></p>
+						</div>
+					</div>
+					<div>
+						<img src="assets/img/pequen.jpg" alt="Pequén" class="img-thumbnail">
+						<div class="carousel-caption">
+							<p>Pequén, <em>Athene cunicularia</em></p>
+						</div>
+					</div>
+					<div>
+						<img src="assets/img/tucuquere.jpg" alt="Tucúquere" class="img-thumbnail">
+						<div class="carousel-caption">
+							<p>Tucúquere, <em>Bubo magellanicus</em></p>
+						</div>
+					</div>
+					<div>
+						<img src="assets/img/chuncho.jpg" alt="Chuncho" class="img-thumbnail">
+						<div class="carousel-caption">
+							<p>Chuncho, <em>Glaucidium nana</em></p>
+						</div>
+					</div>
+					<div>
+						<img src="assets/img/lechuzablanca.jpg" alt="Lechuza Blanca" class="img-thumbnail">
+						<div class="carousel-caption">
+							<p>Lechuza Blanca, <em>Tyto alba</em></p>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<!-- Controls -->
+			<a class="left carousel-control" href="" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
 	</section>
-	<!-- Controls -->
-	<a href="">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span></a>
-	<a href="">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	</a>
-
+	<!-- Footer -->
+	<footer class="container-fluid">
+		<div class="row text-center">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<p>Paula Ponce</p>
+				<ul class="list-inline">
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#https://github.com/PaulaPonce"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
 	<!-- CDN JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- CDN Bootstrap JS -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!-- main.js -->
-<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
