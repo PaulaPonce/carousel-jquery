@@ -1,10 +1,12 @@
 body{
 	font-family: 'Bellefair', serif;
+	background-color: #5DB09C;
 	margin: 0;
 	padding: 0;
 }
 
 .img-thumbnail{
+	border: 1px solid #0D0B0E;
 	width: 1140px;
 	height: 550px;
 }
@@ -18,4 +20,21 @@ body{
 
 .active-bullet{
 	background-color: #fff !important;
+}
+
+h1{
+	font-size: 3em;
+}
+
+footer{
+	font-size: 1.3em;
+}
+
+.carousel-caption{
+	right: 35%;
+	left: 35%;
+}
+.carousel-caption p{
+	background-color: rgba(93, 176, 156, .6);
+	font-size: 1.5em;
 }
