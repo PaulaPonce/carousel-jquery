@@ -5,7 +5,7 @@ body{
 }
 
 .img-thumbnail{
-	width: 100%;
+	width: 1140px;
 	height: 550px;
 }
 
@@ -14,4 +14,8 @@ body{
 }
 .img-hidden{
 	display: none;
+}
+
+.active-bullet{
+	background-color: #fff !important;
 }
